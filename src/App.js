@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import Multiselect from "./UI/Checkbox";
+import "./App.scss";
+import AddTask from "./UI/AddTask";
 
 function App() {
   return (
     <div>
-      <Multiselect />
+      <AddTask />
     </div>
   );
 }
